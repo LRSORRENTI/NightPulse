@@ -1,0 +1,50 @@
+---
+import { motion } from 'framer-motion';
+import { getCollection } from 'astro:content';
+import InterierHero from '../components/InterierHero.astro';
+import InteriorContent from '../components/InteriorContent.astro';
+import DefaultLayout from '../layouts/Default.astro';
+import Card from '../components/Card';
+import { Tag } from '../components/Tag';
+import { getColorFromPositionType, getColorFromPositionCategory } from '../utils/postUtils';
+
+const positions = await getCollection('positions');
+---
+
+<DefaultLayout>
+    <InterierHero>
+        <p class="uppercase font-extrabold text-center text-zinc-500 tracking-wider">Join the team</p>
+        <h1 class="font-heading font-black text-5xl md:text-6xl lg:text-7xl text-center mt-4">We are hiring</h1>
+        <p class="text-center text-xl md:text-2xl mt-6 max-w-xl mx-auto text-zinc-400 px-4 md:px-0">
+            We are always looking for talented individuals passionate about building blockchain products that makes a difference
+        </p>
+    </InterierHero>
+
+    <InteriorContent>
+        <div class="flex flex-col gap-12 px-4 md:px-0">
+            {positions.map(({ data: {title, type, description, category, remote } }) => 
+                <motion.a 
+                    client:load
+                    initial={{ opacity: 0, y:20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 0.5, ease: "easeIn" }}
+                    href="/contact"
+                >
+                    <Card color={getColorFromPositionCategory(category)} buttonText='Apply now'>
+                        <div class="flex items-center gap-3">
+                            {remote && <Tag>Remote</Tag>}
+                            <Tag color={getColorFromPositionType(type)}>{type}</Tag>
+                        </div>
+                        <h2 class="text-xl md:text-2xl lg:text-3xl font-black font-heading mt-6">
+                            {title}
+                        </h2>
+                        <p class="text-lg md:text-xl text-zinc-400 mt-4"> 
+                            {description}
+                        </p>
+                    </Card>
+                </motion.a>
+            )}
+        </div>
+    </InteriorContent>
+</DefaultLayout>

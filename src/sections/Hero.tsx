@@ -1,5 +1,12 @@
 import { CutCornerButton } from "../components/CutCornerButton"
 import IconHero from "../../public/assets/images/icosahedron.png";
+
+import PurplePinkGlass from '../../public/assets/drinkAssets/PurplePinkGlass.png'
+import ColorfulDrink from '../../public/assets/drinkAssets/ColorfulDrink.png'
+import PurpleMartini from '../../public/assets/drinkAssets/DarkPurpleMartini.png'
+import ShinyMartini from '../../public/assets/drinkAssets/ShinyMartiniAndGlass.png'
+import PinkSplash from '../../public/assets/drinkAssets/PinkSplashGlass.png'
+
 import { Hexagon } from "../components/Hexagon";
 import Cube from "../../public/assets/images/cube.png";
 import Cuboid from "../../public/assets/images/cuboid.png";
@@ -65,26 +72,26 @@ export const HeroSection = () => {
                         </div>
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                             <Circle className="absolute left-[200px] -top-[900px]" animate>
-                                <motion.img className="size-[140px]" src={Cube.src} alt="Cube 3D image" ref={cubeRef} style={{rotate: cubeRotate}} />
+                                <motion.img className="size-[140px]" src={PinkSplash.src} alt="Cube 3D image" ref={cubeRef} style={{rotate: cubeRotate}} />
                             </Circle>
                         </div>
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                             <Circle className="absolute left-[200px] top-[270px]" animate>
-                                <motion.img className="size-[140px]" src={Cuboid.src} alt="Cuboid 3D image" ref={cuboidRef} style={{rotate: cuboidRotate}} />
+                                <motion.img className="size-[140px]" src={ColorfulDrink.src} alt="Cuboid 3D image" ref={cuboidRef} style={{rotate: cuboidRotate}} />
                             </Circle>
                         </div>
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                             <Circle className="absolute -left-[600px] -top-[80px]">
-                                <motion.img className="size-[140px]" src={Torus.src} alt="Torus 3D image" ref={torusRef} style={{rotate: torusRotate}} />
+                                <motion.img className="size-[240px]" src={PurpleMartini.src} alt="Torus 3D image" ref={torusRef} style={{rotate: torusRotate}} />
                             </Circle>
                         </div>
                         <motion.div className="inline-flex" ref={icosahedronRef} style={{rotate: icosahedronRotate}}>
                             <img 
-                                src={IconHero.src} 
+                                src={PurplePinkGlass.src} 
                                 alt="Hero Shadow" 
-                                className="absolute w-[calc(100%+100px)] max-w-none -z-10 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 saturate-[10%] brightness-[4%] hue-rotate-[240deg]" 
+                                className="absolute w-[calc(100%+40px)] max-w-none -z-10 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 saturate-[10%] brightness-[4%] hue-rotate-[240deg]" 
                             />
-                            <img src={IconHero.src} alt="Icon Hero" className="w-[500px]" />
+                            <img src={PurplePinkGlass.src} alt="Icon Hero" className="w-[500px]" />
                         </motion.div>
                     </div>
                 </div>

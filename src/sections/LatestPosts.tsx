@@ -25,7 +25,7 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
             <div className="container">
 
             <div className="max-w-3xl mx-auto">
-                <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center font-orbitron">
+                <h2 className="font-black text-4xl md:text-5xl lg:text-6xl text-center font-orbitron">
                 Experience the Hottest Nights in Town
                 </h2>
                 <p className="text-xl lg:text-2xl text-center text-zinc-400 mt-8">
@@ -47,7 +47,7 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
                                     <Tag color={getPostColorFromCategory(category)}>
                                         {category}
                                     </Tag>
-                                    <h3 className="font-heading font-black text-3xl mt-3 font-orbitron">
+                                    <h3 className="font-black text-3xl mt-3 font-orbitron">
                                         {title}
                                     </h3>
                                     <p className="text-lg text-zinc-400 mt-6">
@@ -76,7 +76,7 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
                                     <Tag color={getPostColorFromCategory(category)}>
                                         {category}
                                     </Tag>
-                                    <h3 className="font-heading font-black text-3xl mt-3">
+                                    <h3 className="font-black text-3xl mt-3 font-orbitron">
                                         {title}
                                     </h3>
                                     <p className="text-lg text-zinc-400 mt-6">

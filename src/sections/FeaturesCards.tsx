@@ -74,7 +74,7 @@ export const FeaturesCards = () => {
                                         </div>
                                     </div>
 
-                                    <h3 className="font-heading font-black text-3xl mt-12">
+                                    <h3 className="font-orbitron font-black text-3xl mt-12">
                                         {title}
                                     </h3>
                                     <p className="text-lg text-zinc-400 mt-4">

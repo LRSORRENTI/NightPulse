@@ -10,6 +10,7 @@ export default {
     fontFamily: {
       heading: "Inter, sans-serif",
       body: "Karla, sans-serif",
+      orbitron: ['Orbitron', 'sans-serif'], 
     },
     container: {
       center: true,

@@ -57,7 +57,7 @@ export const FeaturesGrid = () => {
                 {/* LEFT SIDE CONTENT */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="col-span-2 px-2 md:px-0">
-                        <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl font-orbitron">
+                        <h2 className="font-black text-4xl md:text-5xl lg:text-6xl font-orbitron">
                             Lose Yourself in the Rhythm of the Night
                         </h2>
                         <p className="text-xl lg:text-2xl text-zinc-400 mt-8">
@@ -136,7 +136,7 @@ export const FeaturesGrid = () => {
                         </div>
                     </div>
                     <div className="col-span-2 px-2 md:px-0">
-                        <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl">
+                        <h2 className="font-orbitron font-black text-4xl md:text-5xl lg:text-6xl">
                             Step Into the Spotlight
                         </h2>
                         <div className="flex flex-col text-xl lg:text-2xl text-zinc-400 mt-6 gap-6">

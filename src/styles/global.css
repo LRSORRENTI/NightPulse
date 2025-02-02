@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Zen+Dots&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +7,8 @@
   body {
     @apply antialiased bg-zinc-900 text-zinc-300 font-body;
   }
+}
+
+.font-orbitron {
+  font-family: "Orbitron", serif;
 }

@@ -62,8 +62,8 @@ export const FooterSection = () => {
             <div className="container">
                 <div className="flex justify-between items-center">
                     <a href="/">
-                        <h2 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500">
-                            BlockSmith
+                        <h2 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 font-orbitron tracking-[.3rem]">
+                            NightPulse
                         </h2>
                     </a>
                     <nav className="hidden md:flex gap-12 text-zinc-500 font-heading font-black">

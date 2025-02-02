@@ -24,12 +24,15 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
         <section className="py-20 md:py-32 lg:py-60 px-2 md:px-0">
             <div className="container">
 
-                <div className="max-w-3xl mx-auto">
-                    <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center">Your portal to everything BlockChain</h2>
-                    <p className="text-xl lg:2xl text-center text-zinc-400 mt-8">
-                        Keep up with the newest trends, updates and insights in the BlockChain world, updated weekly
-                    </p>
-                </div>
+            <div className="max-w-3xl mx-auto">
+                <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center font-orbitron">
+                Experience the Hottest Nights in Town
+                </h2>
+                <p className="text-xl lg:text-2xl text-center text-zinc-400 mt-8">
+                Stay in the loop with our electrifying lineup of events—live DJs, themed parties, and VIP exclusives, happening every week.
+                 </p>
+            </div>
+
             
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 md:mt-28">
                     <div className="flex flex-col gap-8">
@@ -44,7 +47,7 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
                                     <Tag color={getPostColorFromCategory(category)}>
                                         {category}
                                     </Tag>
-                                    <h3 className="font-heading font-black text-3xl mt-3">
+                                    <h3 className="font-heading font-black text-3xl mt-3 font-orbitron">
                                         {title}
                                     </h3>
                                     <p className="text-lg text-zinc-400 mt-6">

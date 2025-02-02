@@ -42,8 +42,8 @@ export const HeaderSection = () => {
                 <div className="container">
                     <div className="flex justify-between items-center h-24 md:h-28">
                         <a href="/">
-                            <h1 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 p-4">
-                             Night Pulse
+                            <h1 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 p-4 font-orbitron tracking-[.3rem]">
+                             NightPulse
                             </h1>
                         </a>
                         <div className="flex items-center gap-4">
@@ -91,7 +91,7 @@ export const HeaderSection = () => {
                                             href={href} 
                                             key={title} 
                                         >
-                                            <span className="text-4xl md:text-5xl lg:text-6xl font-heading font-black text-zinc-500 hover:text-zinc-300 transition duration-300">
+                                            <span className="text-4xl md:text-5xl lg:text-6xl font-heading font-black text-zinc-500 hover:text-zinc-300 transition duration-300 font-orbitron">
                                                 {title}
                                             </span>
                                         </motion.a>

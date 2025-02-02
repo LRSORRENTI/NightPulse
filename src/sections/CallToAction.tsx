@@ -54,7 +54,7 @@ export const CallToActionSection = () => {
                         </Circle>
                     </div>
 
-                    <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center">
+                    <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center font-orbitron">
                         Ready to <span className="block">get started?</span>
                     </h2>
                     <p className="text-xl lg:text-2xl text-zinc-400 text-center mt-8 max-w-sm mx-auto">Start building, using BlockChain technology, with BlockSmith</p>

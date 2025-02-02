@@ -50,7 +50,7 @@ export const Testimonials = () => {
                             }}
                             className={twMerge(testimonialIndex === 2 && "md:hidden lg:block")}
                         >
-                            <p className="font-heading text-2xl md:text-3xl lg:text-4xl font-black">
+                            <p className="font-heading text-2xl md:text-3xl lg:text-4xl font-black font-orbitron">
                                 &ldquo;{testimonial.text}&rdquo;
                             </p>
                             <cite className="mt-8 block">
@@ -60,7 +60,7 @@ export const Testimonials = () => {
                                     </div>
                                     <div>
                                         <div className="text-lg not-italic font-black">{testimonial.name}</div>
-                                        <div className="text-zinc-400 not-italic">{testimonial.title}</div>
+                                        <div className="text-zinc-400 not-italic ">{testimonial.title}</div>
                                     </div>
                                 </div>
                             </cite>

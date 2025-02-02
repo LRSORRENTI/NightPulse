@@ -9,29 +9,29 @@ import { useEffect, useState } from "react";
 const cardData = [
     {
         image: Pill,
-        title: 'Revolutionary BlockChain API',
-        description: 'Effortlessly intergrate and manage BlockChain with our cutting edge API, designed for seamless control',
-        color: 'fuchsia'
+        title: 'Signature Cocktails',
+        description: 'Indulge in handcrafted cocktails designed by top mixologists, elevating your night with every sip.',
+        color: 'amber'
     },
     {
         image: Cuboid,
-        title: 'Decentralized Data Solutions',
-        description: 'Empower your applications with decentralized data solutions, ensuring seceurity and transparency every step',
-        color: 'lime'
+        title: 'Live DJ Sessions',
+        description: 'Experience the pulse of the night with electrifying DJ sets, spinning the hottest tracks till dawn.',
+        color: 'purple'
     },
     {
         image: Cone,
-        title: 'Next-Gen Smart Contracts',
-        description: 'Unlock the potential on Next-Gen smart contracts with our robust and scaleable API, taiolored for modern BlockChain needs',
-        color: 'cyan'
+        title: 'VIP Lounge Access',
+        description: 'Step into luxury with our exclusive VIP lounge, offering premium drinks and a private atmosphere.',
+        color: 'blue'
     },
     {
         image: Icosahedron,
-        title: 'Seamless BlockChain Intergration',
-        description: 'Intergrate BlockChain technology seamlessly into your project, with minimal effort and maximum results',
-        color: 'violet'
+        title: 'Neon Nights & Light Shows',
+        description: 'Immerse yourself in a dazzling world of neon lights, immersive visuals, and unforgettable vibes.',
+        color: 'fuchsia'
     }
-]
+];
 
 
 export const FeaturesCards = () => {
@@ -53,7 +53,7 @@ export const FeaturesCards = () => {
         <section className="py-24 overflow-x-clip md:-mt-28">
             <div className="container">
                 <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center px-2 md:px-0">
-                    Discover the feature of BlockChain with BlockSmith
+                Immerse Yourself in the Night&apos;s Pulse
                 </h2>
 
                 <div className="mt-36 lg:mt-48 flex">

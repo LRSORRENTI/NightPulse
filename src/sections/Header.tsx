@@ -43,7 +43,7 @@ export const HeaderSection = () => {
                     <div className="flex justify-between items-center h-24 md:h-28">
                         <a href="/">
                             <h1 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 p-4">
-                                BlockSmith
+                             Night Pulse
                             </h1>
                         </a>
                         <div className="flex items-center gap-4">

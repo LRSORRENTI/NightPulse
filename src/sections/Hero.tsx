@@ -49,19 +49,20 @@ export const HeroSection = () => {
     return (
         <section className="py-24 md:py-52 overflow-x-clip">
             <div className="container">
-                <p className="uppercase font-extrabold text-center text-zinc-500 tracking-wider">
-                    Introducing BlockSmith
+            <p className="uppercase font-extrabold text-center text-zinc-500 tracking-wider">
+    Welcome to Night Pulse
                 </p>
                 <h1 className="font-heading font-black text-5xl md:text-6xl lg:text-7xl text-center mt-4 max-w-3xl mx-auto">
-                    The Future Of BlockChain Is Here
+                    The Rhythm of the Night
                 </h1>
                 <p className="text-center text-xl md:text-2xl mt-6 text-zinc-400 max-w-xl mx-auto"> 
-                    BlockSmith is pioneering smart contract interface digtial platform for data solutions
+                    Experience electrifying vibes, signature cocktails, and unforgettable events every night.
                 </p>
 
                 <div className="flex justify-center mt-10">
-                    <CutCornerButton className="">Get started</CutCornerButton>
+                    <CutCornerButton className="">Explore Events</CutCornerButton>
                 </div>
+
                 <div className="flex justify-center mt-24">
                     <div className="inline-flex relative z-0">
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">

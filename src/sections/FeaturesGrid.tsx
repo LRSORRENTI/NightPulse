@@ -88,7 +88,7 @@ export const FeaturesGrid = () => {
                         <div className="relative inline-flex z-0">
                             <motion.img 
                                 className="size-96 max-w-none" 
-                                src="/assets/images/neon-vibes.png" 
+                                src="/assets/drinkAssets/pics/BluePinkTriangles.png" 
                                 alt="Neon Vibes Image" 
                                 ref={torusRef} 
                                 style={{
@@ -98,7 +98,7 @@ export const FeaturesGrid = () => {
                             />
                             <motion.img 
                                 className="absolute size-96 top-3/4 -z-10 scale-x-[-1]" 
-                                src="/assets/images/dj-wave.png" 
+                                src="/assets/drinkAssets/pics/BluePinkTriangles.png" 
                                 alt="DJ Wave Image" 
                                 ref={firstHemisphereRef} 
                                 style={{
@@ -115,7 +115,7 @@ export const FeaturesGrid = () => {
                         <div className="absolute right-0 z-0">
                             <motion.img 
                                 className="size-96 max-w-none rotate-12" 
-                                src="/assets/images/drink-glow.png" 
+                                src="public\assets\images\icosahedron.png" 
                                 alt="Glowing Cocktail Image" 
                                 ref={coneRef} 
                                 style={{
@@ -123,16 +123,16 @@ export const FeaturesGrid = () => {
                                     rotate: coneRotate,
                                 }}
                             />
-                            <motion.img 
-                                className="absolute top-3/4 left-0 -z-10" 
-                                src="/assets/images/night-crowd.png" 
+                            {/* <motion.img 
+                                className="absolute top-3/4 left-0 z-10" 
+                                src="/assets/images/icosahedron.png" 
                                 alt="Nightlife Crowd Image" 
                                 ref={secondHemisphereRef} 
                                 style={{
                                     translateY: secondHemisphereTranslateY,
                                     rotate: secondHemisphereRotate,
                                 }}
-                            />
+                            /> */}
                         </div>
                     </div>
                     <div className="col-span-2 px-2 md:px-0">

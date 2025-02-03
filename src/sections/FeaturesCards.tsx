@@ -1,32 +1,32 @@
-import Pill from "../../public/assets/images/pill.png";
-import Cuboid from "../../public/assets/images/cuboid.png";
-import Cone from "../../public/assets/images/cone.png";
-import Icosahedron from "../../public/assets/images/icosahedron.png";
+import ColorFullGlass from "../../public/assets/drinkAssets/pics/ColorfulGlass.png";
+import Party1 from "../../public/assets/drinkAssets/pics/Party1.png";
+import VIP from "../../public/assets/drinkAssets/pics/VIP.png";
+import ThreeNeonSub from "../../public/assets/drinkAssets/pics/ThreeNeonSub.png";
 import { twMerge } from "tailwind-merge";
 import Card from "../components/Card";
 import { useEffect, useState } from "react";
 
 const cardData = [
     {
-        image: Pill,
+        image: ColorFullGlass,
         title: 'Signature Cocktails',
         description: 'Indulge in handcrafted cocktails designed by top mixologists, elevating your night with every sip.',
         color: 'amber'
     },
     {
-        image: Cuboid,
+        image: Party1,
         title: 'Live DJ Sessions',
         description: 'Experience the pulse of the night with electrifying DJ sets, spinning the hottest tracks till dawn.',
         color: 'purple'
     },
     {
-        image: Cone,
+        image: VIP,
         title: 'VIP Lounge Access',
         description: 'Step into luxury with our exclusive VIP lounge, offering premium drinks and a private atmosphere.',
         color: 'blue'
     },
     {
-        image: Icosahedron,
+        image: ThreeNeonSub,
         title: 'Neon Nights & Light Shows',
         description: 'Immerse yourself in a dazzling world of neon lights, immersive visuals, and unforgettable vibes.',
         color: 'fuchsia'
@@ -70,7 +70,7 @@ export const FeaturesCards = () => {
                                     <div className="flex justify-center -mt-28">
                                         <div className="inline-flex relative">
                                             <div className="absolute h-4 w-full top-[calc(100%+16px)] bg-zinc-950/70 group-hover:bg-zinc-950/30 transition duration-300 rounded-[100%] [mask-image:radial-gradient(closest-side,black,transparent)]"></div>
-                                            <img className="size-40 group-hover:-translate-y-6 transition duration-300" src={image.src} alt="Features Card Image" />
+                                            <img className="size-40 lg:size-48 group-hover:-translate-y-6 transition duration-300 rounded-3xl" src={image.src} alt="Features Card Image" />
                                         </div>
                                     </div>
 

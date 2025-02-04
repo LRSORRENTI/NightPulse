@@ -90,7 +90,7 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
 
                 <div className="flex justify-center mt-24 md:mt-32">
                     <a href="/blog">
-                        <CutCornerButton>Read the Blog</CutCornerButton>
+                        <CutCornerButton>View Events</CutCornerButton>
                     </a>
                 </div>
             </div>

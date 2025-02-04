@@ -3,6 +3,7 @@ import { CutCornerButton } from "../components/CutCornerButton"
 import { Hexagon } from "../components/Hexagon"
 import CuboidImg from "../../public/assets/images/cuboid.png";
 import CylinderImg from "../../public/assets/images/cylinder.png";
+import NeonWine from '../../public/assets/drinkAssets/pics/neon-wine.png';
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -44,11 +45,11 @@ export const CallToActionSection = () => {
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <Circle className="absolute -left-[600px] -top-[70px]" animate>
                             <motion.img 
-                                className="size-[140px]" 
+                                className="size-[200px]" 
                                 style={{
                                     rotate: rotate,
                                 }}
-                                src={CylinderImg.src} 
+                                src={NeonWine.src} 
                                 alt="CTA cubiod" 
                             />
                         </Circle>

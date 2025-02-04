@@ -25,7 +25,7 @@ const Card = (props: ComponentPropsWithoutRef<'div'> & { color?: string; buttonT
             <div className="absolute inset-0 bg-zinc-800 -z-10 rounded-2xl [mask-image:linear-gradient(225deg,transparent,transparent_40px,black_40px)]"></div>
             <div>{ children }</div>
             <div className="flex justify-between mt-12">
-                <LearnMoreButton color={color}>{buttonText || 'Learn More'}</LearnMoreButton>
+                {/* <LearnMoreButton color={color}>{buttonText || 'Learn More'}</LearnMoreButton>
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     fill="none" 
@@ -35,7 +35,7 @@ const Card = (props: ComponentPropsWithoutRef<'div'> & { color?: string; buttonT
                     className="size-8 text-zinc-500 group-hover:text-zinc-300 transition duration-300 -translate-x-2 group-hover:translate-x-0"
                 >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                </svg>
+                </svg> */}
             </div>
 
         </div>

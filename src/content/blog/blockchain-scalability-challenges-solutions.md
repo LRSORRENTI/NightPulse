@@ -1,7 +1,7 @@
 ---
 title: "NightPulse Presents: Trance Awakening"
 description: "A mesmerizing night of hypnotic beats, deep melodies, and euphoric vibes at NightPulse!"
-pubDate: "2024-08-07"
+pubDate: "2024-01-03"
 category: Events
 slug: "nightpulse-trance-awakening"
 author:

@@ -1,7 +1,7 @@
 ---
 title: "NightPulse Presents: Retro Rave - 90s & 2000s EDM Night"
 description: "Step back in time for a legendary night of classic electronic anthems from the 90s and early 2000s at NightPulse!"
-pubDate: "2024-08-14"
+pubDate: "2025-01-14"
 category: Events
 slug: "nightpulse-retro-rave"
 author:

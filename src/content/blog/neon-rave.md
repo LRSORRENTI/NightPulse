@@ -1,7 +1,7 @@
 ---
 title: "NightPulse Presents: Neon Rave Night"
 description: "A high-energy, neon-drenched rave night featuring electrifying DJs and mind-blowing visuals at NightPulse!"
-pubDate: "2024-08-18"
+pubDate: "2025-01-05"
 category: Events
 slug: "nightpulse-neon-rave-night"
 author:

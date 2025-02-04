@@ -1,7 +1,7 @@
 ---
 title: "NightPulse Presents: EDM Takeover - Pulse Collective"
 description: "An electrifying night with the hottest EDM group, Pulse Collective, bringing high-energy beats to NightPulse!"
-pubDate: "2024-08-12"
+pubDate: "2025-01-12"
 category: Events
 slug: "nightpulse-edm-takeover-pulse-collective"
 author:

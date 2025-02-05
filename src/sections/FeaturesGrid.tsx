@@ -1,6 +1,6 @@
 import { useRef } from "react"
 import { CutCornerButton } from "../components/CutCornerButton"
-import LearnMoreButton from "../components/LearnMoreButton"
+// import LearnMoreButton from "../components/LearnMoreButton"
 import { motion, useScroll, useTransform } from "framer-motion"
 
 const listItems = [
@@ -80,10 +80,12 @@ export const FeaturesGrid = () => {
                             ))}
                         </ul>
                         <div className="flex gap-8 mt-12 items-center justify-center lg:justify-start lg:pr-2">
-                            <CutCornerButton>Reserve Your Spot</CutCornerButton>
                             <a href="/blog">
-                            <LearnMoreButton>View Events</LearnMoreButton>
+                            <CutCornerButton>View Events</CutCornerButton>
                             </a>
+                            {/* <a href="/blog">
+                            <LearnMoreButton>View Events</LearnMoreButton>
+                            </a> */}
                         </div>
                     </div>
                     <div className="hidden md:block">
@@ -117,7 +119,7 @@ export const FeaturesGrid = () => {
                         <div className="absolute right-0 z-0">
                             <motion.img 
                                 className=" max-w-none rotate-12" 
-                                src="public\assets\drinkAssets\pics\Disco.png" 
+                                src="\assets\drinkAssets\pics\Disco.png" 
                                 alt="Glowing Cocktail Image" 
                                 ref={coneRef} 
                                 style={{

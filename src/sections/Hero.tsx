@@ -1,17 +1,17 @@
 import { CutCornerButton } from "../components/CutCornerButton"
-import IconHero from "../../public/assets/images/icosahedron.png";
+// import IconHero from "../../public/assets/images/icosahedron.png";
 
 import PurplePinkGlass from '../../public/assets/drinkAssets/PurplePinkGlass.png'
 import ColorfulDrink from '../../public/assets/drinkAssets/ColorfulDrink.png'
 import PurpleMartini from '../../public/assets/drinkAssets/DarkPurpleMartini.png'
-import ShinyMartini from '../../public/assets/drinkAssets/ShinyMartiniAndGlass.png'
+// import ShinyMartini from '../../public/assets/drinkAssets/ShinyMartiniAndGlass.png'
 import PinkSplash from '../../public/assets/drinkAssets/PinkSplashGlass.png'
 
 import { Hexagon } from "../components/Hexagon";
-import Cube from "../../public/assets/images/cube.png";
-import Cuboid from "../../public/assets/images/cuboid.png";
+// import Cube from "../../public/assets/images/cube.png";
+// import Cuboid from "../../public/assets/images/cuboid.png";
 import { Circle } from "../components/Circle";
-import Torus from "../../public/assets/images/torus.png";
+// import Torus from "../../public/assets/images/torus.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 

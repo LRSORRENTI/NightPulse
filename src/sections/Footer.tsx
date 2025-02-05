@@ -57,30 +57,32 @@ const socialIcons = [
 
 export const FooterSection = () => {
 
+    let date = (new Date().getFullYear())
+
     return (
         <footer className="py-12 bg-zinc-950 px-4 md:px-0">
-            <div className="container">
+            <div className="flex flex-col justify-center px-3 lg:block md:px-24">
                 <div className="flex justify-between items-center">
                     <a href="/">
-                        <h2 className="text-3xl font-thin text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 font-orbitron tracking-[.3rem]">
+                        <h2 className="mr-12 lg:mr-0 text-3xl font-thin text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-fuchsia-500 font-orbitron tracking-[.3rem]">
                             NightPulse
                         </h2>
                     </a>
                     <nav className="hidden md:flex gap-12 text-zinc-500 font-heading font-black">
                         <a href="/" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Home</a>
-                        <a href="/blog" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Blog</a>
+                        <a href="/blog" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Events</a>
                         <a href="/careers" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Careers</a>
                         <a href="/contact" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Contact</a>
                     </nav>
                 </div>
 
-                <div className="mt-12 md:mt-48 md:flex justify-between items-center">
+                <div className="mt-12 md:mt-12 md:flex justify-between items-center">
                     <p className="text-zinc-400">
-                        &copy; 2024 BlockSmith. All rights reserved
+                    &copy; {date} NightPulse
                     </p>
                     <div className="mt-4 md:mt-0 flex gap-6">
                         {socialIcons.map((icon, iconIndex) => (
-                            <div className="inline-flex size-10 bg-zinc-800 rounded-full items-center justify-center hover:bg-fuchsia-500 transition-colors group" key={iconIndex}>
+                            <div className="inline-flex size-10 p-3 bg-zinc-800 rounded-full items-center justify-center hover:bg-fuchsia-500 transition-colors group" key={iconIndex}>
                                 {icon.icon}
                             </div>
                         ))}

@@ -61,7 +61,9 @@ export const CallToActionSection = () => {
                     <p className="text-xl lg:text-2xl text-zinc-400 text-center mt-8 max-w-sm mx-auto">Start building, using BlockChain technology, with BlockSmith</p>
 
                     <div className="flex justify-center mt-12">
-                        <CutCornerButton>Get Started</CutCornerButton>
+                        <a href="/blog">
+                        <CutCornerButton>View Events</CutCornerButton>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -81,7 +81,9 @@ export const FeaturesGrid = () => {
                         </ul>
                         <div className="flex gap-8 mt-12 items-center justify-center lg:justify-start lg:pr-2">
                             <CutCornerButton>Reserve Your Spot</CutCornerButton>
+                            <a href="/blog">
                             <LearnMoreButton>View Events</LearnMoreButton>
+                            </a>
                         </div>
                     </div>
                     <div className="hidden md:block">
@@ -114,13 +116,15 @@ export const FeaturesGrid = () => {
                     <div className="relative hidden md:block">
                         <div className="absolute right-0 z-0">
                             <motion.img 
-                                className="size-96 max-w-none rotate-12" 
-                                src="public\assets\images\icosahedron.png" 
+                                className=" max-w-none rotate-12" 
+                                src="public\assets\drinkAssets\pics\Disco.png" 
                                 alt="Glowing Cocktail Image" 
                                 ref={coneRef} 
                                 style={{
                                     translateY: coneTranslateY,
                                     rotate: coneRotate,
+                                    width: "35rem",
+                                    height: "35rem",
                                 }}
                             />
                             {/* <motion.img 
@@ -148,8 +152,10 @@ export const FeaturesGrid = () => {
                             </p>
                         </div>
                         <div className="flex gap-8 mt-12 items-center justify-center lg:justify-start lg:pr-2">
-                            <CutCornerButton>Book a Table</CutCornerButton>
-                            <LearnMoreButton>Upcoming Events</LearnMoreButton>
+                            {/* <CutCornerButton>Book a Table</CutCornerButton> */}
+                            <a href="/blog">
+                            <CutCornerButton>Upcoming Events</CutCornerButton>
+                            </a>
                         </div>
                     </div>
                 </div>

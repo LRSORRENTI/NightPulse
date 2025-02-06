@@ -94,7 +94,8 @@ export const HeaderSection = () => {
                                             href={href} 
                                             key={title} 
                                         >
-                                            <span className="text-4xl md:text-5xl lg:text-6xl font-black text-zinc-500 hover:text-zinc-300 transition duration-300 font-orbitron">
+                                            <span className="text-4xl md:text-5xl lg:text-6xl font-black text-zinc-500 hover:text-zinc-300 transition duration-300 font-orbitron"
+                                                key={title}>
                                                 {title}
                                             </span>
                                         </motion.a>

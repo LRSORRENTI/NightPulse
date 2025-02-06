@@ -37,7 +37,7 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 md:mt-28">
                     <div className="flex flex-col gap-8">
                         {latestPosts.map(({ data: { title, description, category }, slug }, postIndex) => (
-                            <a href={`/blog/${slug}`} >
+                            <a href={`/blog/${slug}`} key={title}>
                                 <Card 
                                     key={postIndex} 
                                     color={getPostColorFromCategory(category)} 
@@ -66,7 +66,7 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
                         ref={targetRef}
                     >
                         {latestPosts.map(({ data: { title, description, category }, slug }, postIndex) => (
-                            <a href={`/blog/${slug}`}>
+                            <a href={`/blog/${slug}`} key={title}>
                                 <Card 
                                     key={postIndex} 
                                     color={getPostColorFromCategory(category)} 

@@ -92,7 +92,7 @@ export const FeaturesGrid = () => {
                         <div className="relative inline-flex z-0">
                             <motion.img 
                                 className="size-96 max-w-none" 
-                                src="/assets/drinkAssets/pics/BluePinkTriangles.png" 
+                                src="src/drinkAssets/pics/BluePinkTriangles.png" 
                                 alt="Neon Vibes Image" 
                                 ref={torusRef} 
                                 style={{
@@ -102,7 +102,7 @@ export const FeaturesGrid = () => {
                             />
                             <motion.img 
                                 className="absolute size-96 top-3/4 -z-10 scale-x-[-1]" 
-                                src="/assets/drinkAssets/pics/BluePinkTriangles.png" 
+                                src="src/drinkAssets/pics/BluePinkTriangles.png" 
                                 alt="DJ Wave Image" 
                                 ref={firstHemisphereRef} 
                                 style={{
@@ -119,7 +119,7 @@ export const FeaturesGrid = () => {
                         <div className="absolute right-0 z-0">
                             <motion.img 
                                 className=" max-w-none rotate-12" 
-                                src="\assets\drinkAssets\pics\Disco.png" 
+                                src="src/imgs/diamond.png" 
                                 alt="Glowing Cocktail Image" 
                                 ref={coneRef} 
                                 style={{

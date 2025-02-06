@@ -1,7 +1,7 @@
-import ColorFullGlass from "../../public/assets/drinkAssets/pics/ColorfulGlass.png";
-import Party1 from "../../public/assets/drinkAssets/pics/Party1.png";
-import VIP from "../../public/assets/drinkAssets/pics/VIP.png";
-import ThreeNeonSub from "../../public/assets/drinkAssets/pics/ThreeNeonSub.png";
+import ColorFullGlass from "../drinkAssets/pics/ColorfulGlass.png";
+import Party1 from "../drinkAssets/pics/Party1.png";
+import VIP from "../drinkAssets/pics/VIP.png";
+import ThreeNeonSub from "../drinkAssets/pics/ThreeNeonSub.png";
 import { twMerge } from "tailwind-merge";
 import Card from "../components/Card";
 import { useEffect, useState } from "react";

@@ -1,11 +1,11 @@
 import { CutCornerButton } from "../components/CutCornerButton"
 // import IconHero from "../../public/assets/images/icosahedron.png";
 
-import PurplePinkGlass from '../../public/assets/drinkAssets/PurplePinkGlass.png'
-import ColorfulDrink from '../../public/assets/drinkAssets/ColorfulDrink.png'
-import PurpleMartini from '../../public/assets/drinkAssets/DarkPurpleMartini.png'
+import PurplePinkGlass from '../drinkAssets/PurplePinkGlass.png'
+import ColorfulDrink from '../drinkAssets/ColorfulDrink.png'
+import PurpleMartini from '../drinkAssets/DarkPurpleMartini.png'
 // import ShinyMartini from '../../public/assets/drinkAssets/ShinyMartiniAndGlass.png'
-import PinkSplash from '../../public/assets/drinkAssets/PinkSplashGlass.png'
+import PinkSplash from '../drinkAssets/PinkSplashGlass.png'
 
 import { Hexagon } from "../components/Hexagon";
 // import Cube from "../../public/assets/images/cube.png";
@@ -50,7 +50,7 @@ export const HeroSection = () => {
         <section className="py-24 md:py-52 overflow-x-clip">
             <div className="container">
             <p className="uppercase font-extrabold text-center text-zinc-500 tracking-wider">
-    Welcome to Night Pulse
+                Welcome to Night Pulse
                 </p>
                 <h1 className="font-black text-5xl md:text-6xl lg:text-7xl text-center mt-4 max-w-3xl mx-auto font-orbitron">
                     The Rhythm of the Night

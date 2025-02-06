@@ -3,7 +3,7 @@
 const socialIcons = [
     {
         icon: (
-            <a href="https://discord.com/">
+            <a href="https://discord.com/" target="_blank">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 640 512"
@@ -16,7 +16,7 @@ const socialIcons = [
     },
     {
         icon: (
-            <a href="https://www.youtube.com/">
+            <a href="https://www.youtube.com/" target="_blank">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 576 512"
@@ -29,7 +29,7 @@ const socialIcons = [
     },
     {
         icon: (
-            <a href="https://www.linkedin.com">
+            <a href="https://www.linkedin.com" target="_blank">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 448 512"
@@ -42,7 +42,7 @@ const socialIcons = [
     },
     {
         icon: (
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/" target="_blank">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 512 512"

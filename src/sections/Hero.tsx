@@ -50,7 +50,7 @@ export const HeroSection = () => {
         <section className="py-24 md:py-52 overflow-x-clip">
             <div className="container">
             <p className="uppercase font-extrabold text-center text-zinc-500 tracking-wider">
-                Welcome to Night Pulse
+                Welcome to NightPulse
                 </p>
                 <h1 className="font-black text-5xl md:text-6xl lg:text-7xl text-center mt-4 max-w-3xl mx-auto font-orbitron">
                     The Rhythm of the Night

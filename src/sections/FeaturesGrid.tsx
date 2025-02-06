@@ -61,7 +61,7 @@ export const FeaturesGrid = () => {
                             Lose Yourself in the Rhythm of the Night
                         </h2>
                         <p className="text-xl lg:text-2xl text-zinc-400 mt-8">
-                            Night Pulse is where the music takes over, the drinks flow, and the night comes alive with unforgettable energy.
+                            NightPulse is where the music takes over, the drinks flow, and the night comes alive with unforgettable energy.
                         </p>
                         <ul className="flex flex-col gap-8 mt-12">
                             {[
@@ -147,7 +147,7 @@ export const FeaturesGrid = () => {
                         </h2>
                         <div className="flex flex-col text-xl lg:text-2xl text-zinc-400 mt-6 gap-6">
                             <p>
-                                Night Pulse is the ultimate destination for those who thrive after dark. Whether you're here to sip, dance, or simply vibe, we've got something for everyone.
+                                NightPulse is the ultimate destination for those who thrive after dark. Whether you're here to sip, dance, or simply vibe, we've got something for everyone.
                             </p>
                             <p>
                                 From expertly crafted cocktails to pulsating beats from the best DJs, every night is a new experience waiting to be discovered.
